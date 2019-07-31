@@ -1,4 +1,29 @@
 hello, ubuntu!
 <br>
+<%=@post.each do |post|%>
+<hr>
+<center>
+	<div style="background:green">title</div>
+	<br>
+	<%=post.title%> 
+</center>
+<br>
+<center>
+	<div style="background:#dd2277">content</div>
+	<br>
+	<%=post.content%>
+</center>
+<center>
+	<a href ='/modify/<%=post.id%>'>modify</a>
+	<a href ='/delete/<%=post.id%>'>delete</a>
+	<br>
+	<%end%>
+</center>
+<hr>
+<br>
+<a href="/write">Write article</a>
+<br>
+<a href='/modify'>Modify article</a>
 <br>
 <a href="/calc">Calculator</a>
+
