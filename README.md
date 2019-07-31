@@ -8,13 +8,19 @@ Things you may want to cover:
 * Ruby version
 
 2.6.3
+
 * System dependencies
 
 ruby-2.6.3
+
 ruby on rails 6.0.0.rc1
+
 yarn 1.17.3
+
 nodejs v12.7.0
+
 sqlite3 3.11.0
+
 
 
 * Configuration
